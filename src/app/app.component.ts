@@ -6,5 +6,13 @@ import { Component } from '@angular/core';
   styleUrls: ['./app.component.css']
 })
 export class AppComponent {
-  title = 'Practise';
+
+  data={
+    title :'Mahesh'
+  };
+
+
+  changeInput=(newTitle:string)=>{
+      this.data.title=newTitle;
+  }
 }
